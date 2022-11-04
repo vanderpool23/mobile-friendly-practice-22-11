@@ -1,0 +1,24 @@
+/* this is the css for phone */
+
+header {
+    background: yellow;
+}
+
+/* this is the css for the table */
+
+@media only screen and (min-width: 600px) {
+    header {
+        background-color: lightblue;
+    }
+
+}
+
+/* this is the css for the desktop */
+
+@media only screen and (min-width: 900px) {
+    header {
+        background-color: red;
+    }
+
+}
+
